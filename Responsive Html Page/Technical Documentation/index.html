@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+</head>
+<body>
+
+    <button class="toggle-nav">☰</button>
+
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <ul>
+            <li><a  class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link"  href="#essentials">Essentials</a></li>
+            <li><a  class="nav-link" href="#installation">Installation</a></li>
+            <li><a  class="nav-link" href="#syntax">Syntax</a></li>
+            <li><a  class="nav-link" href="#variables">Variables</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header id="introduction">Introduction</header>
+            <p>This is an introduction paragraph.</p>
+            <p>Another introduction paragraph.</p>
+            <code>Introduction code snippet</code>
+            <p>Yet another introduction paragraph.</p>
+            <ul>
+                <li>Introduction list item 1</li>
+                <li>Introduction list item 2</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="essentials">
+            <header id="essentials">Essentials</header>
+            <p>This is an essentials paragraph.</p>
+            <p>Another essentials paragraph.</p>
+            <code>Essentials code snippet</code>
+            <p>Yet another essentials paragraph.</p>
+            <ul>
+                <li>Essentials list item 1</li>
+                <li>Essentials list item 2</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="installation">
+            <header id="installation">Installation</header>
+            <p>This is an installation paragraph.</p>
+            <p>Another installation paragraph.</p>
+            <code>Installation code snippet</code>
+            <p>Yet another installation paragraph.</p>
+            <ul>
+                <li>Installation list item 1</li>
+                <li>Installation list item 2</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="syntax">
+            <header id="syntax">Syntax</header>
+            <p>This is a syntax paragraph.</p>
+            <p>Another syntax paragraph.</p>
+            <code>Syntax code snippet</code>
+            <p>Yet another syntax paragraph.</p>
+            <ul>
+                <li>Syntax list item 1</li>
+                <li>Syntax list item 2</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="variables">
+            <header id="variables">Variables</header>
+            <p>This is a variables paragraph.</p>
+            <p>Another variables paragraph.</p>
+            <code>Variables code snippet</code>
+            <p>Yet another variables paragraph.</p>
+            <ul>
+                <li>Variables list item 1</li>
+                <li>Variables list item 2</li>
+            </ul>
+        </section>
+    </main>
+     <!-- JavaScript for Toggle Button -->
+     <script>
+        document.querySelector('.toggle-nav').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
